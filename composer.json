@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app/",
+      "Tests\\" : "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.1"
+  },
+  "require": {
+    "mockery/mockery": "^1.3",
+    "nikic/fast-route": "^1.3",
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
